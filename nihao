@@ -1,0 +1,7 @@
+void   arraycopy(int* from, int* to, int size)
+{
+    int i;
+    for (i = 0; i < size; i++) {
+        *(to+i) = *(from+i);
+    }
+}
